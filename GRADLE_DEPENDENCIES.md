@@ -1,4 +1,4 @@
-##Dependencies configuration
+## Dependencies configuration
 1. Put provided OneReach Android SDK files in module `libs` directory 
 2. Add next dependencies to module build.gradle.kts: 
 ```
