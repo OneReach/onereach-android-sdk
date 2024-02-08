@@ -1,6 +1,6 @@
-# Onereach.ai Android SDK documentation
-Welcome to the Onereach.ai Android SDK documentation. Here, you'll discover valuable information about utilizing the Android SDK effectively.
-# Table of Contents
+# OneReach.ai on Android Platforms
+OneReach.ai provides a set of features available on different operating systems and platforms. The features are delivered to the end users using applications - Apps. Each App offers one or a set of features integrated with a platform or operating system the App is running on. The Apps SDK allows to use Apps on Android platforms.
+## Table of Contents
 1. [Onereach.ai Android SDK documentation](#onereachai-android-sdk-documentation)
     - [Setup](#setup)
         - [Changes in your project](#changes-in-your-project)
@@ -74,7 +74,7 @@ Ensure to pass your app's package name to the `initOneReachAppsSdk` function.
 class SampleApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        initOneReachAppsSkd("ai.onereach.injectapp")
+        initOneReachAppsSdk("ai.onereach.injectapp")
     }
 }
 ```
