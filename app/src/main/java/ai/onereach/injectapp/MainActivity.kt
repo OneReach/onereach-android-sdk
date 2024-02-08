@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
                     val environment = "put_your_environment_here"
                     MainScreen {
                         launchApp(
-                            url = "https://$environment.onereach.ai/$appId}}",
+                            url = "https://$environment.onereach.ai/$appId",
                             theme = OneReachFlavor.AppTheme.SYSTEM,
                             name = "Sample"
                         )
