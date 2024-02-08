@@ -37,12 +37,8 @@ android {
         viewBinding = true
     }
 }
-
-dependencies {
-    // Other dependencies...
-    implementation("ai.onereach.app:android-sdk:1.0.0")
-}
 ```
+3. Dependencies configuration can be found in the in GRADLE_DEPENDECIES.md
 #### If you intend to use Firebase Messaging functionality, follow these additional steps:
 1. Add to root build.gradle.kts:
 ```
@@ -58,7 +54,7 @@ id("com.google.gms.google-services") version "4.4.0" apply false
 #### If you don't want to use Firebase Messaging functionality, add the following code to your `AndroidManifest.xml`:
 ```
 <application
-...
+   ...
         <provider android:authorities="${applicationId}.firebaseinitprovider"
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:exported="false"
@@ -96,7 +92,7 @@ If you enable Firebase Messaging, special Onereach push messages will be handled
 1. Add the following to your `AndroidManifest.xml:`
 ```
 <application>
-...
+   ...
         <service
             android:name="ai.onereach.injectapp.SampleMessagingService"
             android:exported="false">
