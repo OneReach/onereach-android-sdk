@@ -60,8 +60,6 @@ android {
 
 dependencies {
 
-    implementation("ai.onereach.app:domain-core:1.0.0")
-
     implementation(files("libs/domain-core.jar"))
     implementation(files("libs/domain-bot.jar"))
     api(files("libs/domain-bot-core.jar"))
